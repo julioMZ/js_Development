@@ -1,4 +1,4 @@
 js_Development
 ==============
 
-Development of js API's for genneral purpose
+Development of js API's for general purpose
