@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>YouTube Video Tracking</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <h1>YouTube Video Tracking</h1>
+        
+        <table border="1">
+            
+            <tr>
+                
+                <td>
+                    <h2>In Line iframe Example</h2>
+                </td>
+                
+                <td>
+                    <h2>Injection Example</h2>
+                </td>
+                
+            </tr>
+            
+            <tr>
+                <td>
+                    <iframe id="iframePlayer" width="640" height="390" src="https://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1" frameborder="0"></iframe>
+                </td>
+                <td>
+                    <div id="injectionContainer"></div>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <h3>Events Lists</h3>
+                    <ul id="iFrameEventsList"></ul>
+                </td>
+                <td>
+                    <h3>Events Lists</h3>
+                    <ul id="injectionEventsList"></ul>
+                </td>
+            </tr>
+            
+        </table>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/lib/YouTubeEventTracker.js"></script>
+        <script type="text/javascript" src="js/youTubeTracking.js"></script>
+        
+    </body>
+</html>
