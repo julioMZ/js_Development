@@ -1,0 +1,10 @@
+for(;;);
+( {
+    "title"       : "JavaScript Multilingue",
+    "legend"      : "Langues",
+    "label"       : "Choisir la langue",
+    "es"          : "Espagnol",
+    "en"          : "Anglais",
+    "fr"          : "Français",
+    "button"      : "Changer"
+} )
